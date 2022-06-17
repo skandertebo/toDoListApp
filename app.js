@@ -7,7 +7,8 @@ const app = express();
 
 const items = [];
 const Today = new Date();
-//const date = Today.toLocaleDateString()
+const options = { weekday: 'long' };
+const date = Today.toLocaleDateString("en-US" , options);
 
 app.set('view engine', 'ejs');
 
@@ -21,7 +22,7 @@ app.use(bodyParser.urlencoded({
 
 
 app.get('/', (req, res) => {
-    res.render('index.ejs',{date:"Friday"});
+    res.render('index.ejs',{date:date});
 })
 
 
