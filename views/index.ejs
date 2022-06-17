@@ -27,12 +27,14 @@
                         second checkbox
                     </li>
                 </ul>
-                <label for="inp" class="inp">
+                <div class="add-item">
                     <form action="/">
-                        <input type="text" id="inp" placeholder="Add a task" pattern=".{6,}" required>
+                        <label for="inp" class="inp">
+                            <input type="text" id="inp" placeholder="Add a task" pattern=".{6,}" required>
+                        </label>
+                        <button class="btn btn-primary" id="submit-btn" name="submit" type="submit">+</button>
                     </form>
-                </label>
-                  
+                </div>
             </div>
         </div>
     </div>
