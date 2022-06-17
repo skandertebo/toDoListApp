@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 app.set('view engine', 'ejs');
 
-const items = ["eat food" , "make bed" , "shower"];
+const items = [];
 const Today = new Date();
 const options = { weekday: 'long' };
 const date = Today.toLocaleDateString("en-US" , options);

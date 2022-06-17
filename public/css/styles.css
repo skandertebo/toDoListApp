@@ -131,6 +131,9 @@ body{
 #bottom-list{
     border-bottom:var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
 }
+#singleton-list{
+    border:var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
 .form-check-input{
     background-color:#F87474;
     border:1px solid #FFFFFF;

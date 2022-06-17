@@ -21,7 +21,9 @@
                 <p id="content-title">To do List:</p>
                 <ul class="list-group">
                 <% for (var i = 0; i <items.length; i++) { %>
-                  <% if(i===0){ %>
+                  <% if(items.length==1){ %>
+                    <li class="list-group-item" id="singleton-list">
+                  <% } else if(i===0){ %>
                     <li class="list-group-item" id="top-list">
                     
                   <% } else if(i===items.length-1){ %>
