@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Arimo&family=Montserrat:wght@300;400;900&family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    background-color:#F9F2ED;
+}
+
+.box{
+    margin-top:3rem;
+    display:block;
+    max-width:50rem;
+    border:2px solid #3AB0FF;
+    border-radius:0.7rem;
+    padding:1rem;
+}
+.date{
+    background-color:#FFB562;
+    border-radius:1rem;
+    height:6rem;
+    width: 26rem;
+    font-family:'Poppins';
+    font-size:3rem;
+    color: #F9F2ED;
+    padding:0.7rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.card{
+    margin-top:2rem;
+    width:31rem;
+    padding:2rem;
+    background-color:#F9F2ED;
+    border:none;
+}
+.card-content{
+    background-color:#F87474;
+    border-radius:1rem;
+    padding:0.5rem;
+}
+.list-group{
+    padding:0.5rem;
+    background-color:#F87474;
+}
+.list-group-item{
+    background-color:#F87474;
+}
+#content-title{
+    color:#F9F2ED;
+    font-family:'Poppins';
+    font-size: 1.5rem;
+    margin:0.6rem;
+}
+.inp {
+    position: relative;
+    margin: auto;
+    margin-left:1rem;
+    width: 100%;
+    max-width: 280px;
+    height: 53px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    padding:0.8rem 0.5rem 0rem 0rem;
+    border-bottom:1px solid #F9F2ED
+}
+
+.inp input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 0;
+  height: 48px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background: none;
+  border-radius: 0;
+  color: #F9F2ED;
+  transition: all 0.15s ease;
+}
+.inp input:focus {
+  outline: none;
+}
+.inp input:focus {
+  stroke: #07f;
+}
+.inp input:valid {
+  animation: elasticInput 0.8s ease forwards;
+}
+.inp input:valid {
+  transform: translate(0, 0) scale(1);
+}
+::placeholder {
+  color: #f8f6f4b8;
+  font-size:1.2rem;
+}
+.list-group-item{
+    border-bottom:0;
+    border-top:0;
+    color:#F9F2ED;
+    font-size:1.1rem;
+    padding:0.6rem;
+}
+#top-list{
+    border-top:var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+#bottom-list{
+    border-bottom:var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+
